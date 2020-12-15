@@ -5,7 +5,7 @@ public class Grid {
   public string Name {get; set;}
   public List<Thing> ThingsInGrid {get; set;}
 
-  public Grid(string name, string desc) 
+  public Grid(string name, string desc) // grid constructor
   {
     Name = name;
     Description = desc;
