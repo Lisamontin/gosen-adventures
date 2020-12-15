@@ -6,7 +6,8 @@ namespace Gosen_adventures
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            World w = new World();
+            w.Init(4);
         }
     }
 }
