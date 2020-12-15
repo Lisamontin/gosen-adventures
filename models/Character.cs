@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-public class Hero 
+public class Character 
 {
   public string Name { get; set; }
   public int Health { get; set; }
@@ -9,7 +9,7 @@ public class Hero
   public List<Thing> Inventory { get; set; }
 
   public int[] Coordinates { get; set; }
-  public Hero(string name, int hp, int str) //Hero constructor
+  public Character(string name, int hp, int str) //Character constructor
   {
     Name = name;
     Health = hp;
