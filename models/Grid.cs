@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 
-public class Grid {
+public class Environment {
   public string Description {get; set;}
   public string Name {get; set;}
-  public List<Thing> ThingsInGrid {get; set;}
+  public List<Thing> ThingsInEnvironment {get; set;}
 
-  public Grid(string name, string desc) // grid constructor
+  public Environment(string name, string desc) // Environment constructor
   {
     Name = name;
     Description = desc;
 
-    ThingsInGrid = new List<Thing>();
+    ThingsInEnvironment = new List<Thing>();
   }
 }
