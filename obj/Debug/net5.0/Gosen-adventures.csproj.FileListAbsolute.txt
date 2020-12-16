@@ -1,0 +1,16 @@
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\bin\Debug\net5.0\Gosen-adventures.exe
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\bin\Debug\net5.0\Gosen-adventures.deps.json
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\bin\Debug\net5.0\Gosen-adventures.runtimeconfig.json
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\bin\Debug\net5.0\Gosen-adventures.runtimeconfig.dev.json
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\bin\Debug\net5.0\Gosen-adventures.dll
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\bin\Debug\net5.0\ref\Gosen-adventures.dll
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\bin\Debug\net5.0\Gosen-adventures.pdb
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\obj\Debug\net5.0\Gosen-adventures.csprojAssemblyReference.cache
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\obj\Debug\net5.0\Gosen-adventures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\obj\Debug\net5.0\Gosen-adventures.AssemblyInfoInputs.cache
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\obj\Debug\net5.0\Gosen-adventures.AssemblyInfo.cs
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\obj\Debug\net5.0\Gosen-adventures.csproj.CoreCompileInputs.cache
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\obj\Debug\net5.0\Gosen-adventures.dll
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\obj\Debug\net5.0\ref\Gosen-adventures.dll
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\obj\Debug\net5.0\Gosen-adventures.pdb
+C:\Users\Lisa\Desktop\c#adventures\gosen-adventures\obj\Debug\net5.0\Gosen-adventures.genruntimeconfig.cache

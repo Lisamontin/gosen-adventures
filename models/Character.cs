@@ -10,9 +10,17 @@ public class Character
 
   public int[] Coordinates { get; set; }
 
-  public List<Action> Actions = new List<Action>() { new Observations() };
+  public List<Action> actions = new List<Action>() { new Observations() };
 
-  public void DoCommand() {}
+  public void DoCommand(string theCommand) 
+  {
+    foreach (Action item in actions)
+    {
+        if(item.Verbs.Contains(theCommand)) {
+          item.Execute(this);
+        }
+    }
+  }
   public Character(string name, int hp, int str) //Character constructor
   {
     Name = name;
@@ -23,7 +31,7 @@ public class Character
     Inventory = new List<Thing>();
     Coordinates = new int[2];
     Coordinates[0] = 0;
-    Coordinates[1] = 0; 
+    Coordinates[1] = 0;
 
   }
 }
