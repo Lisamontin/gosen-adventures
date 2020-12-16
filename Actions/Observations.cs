@@ -9,7 +9,7 @@ public class Observations : Action {
     get { return verbs; }
   }
 
-  public override void Execute(Character c) 
+  public override void Execute(Character c, string args) 
   {
     Console.WriteLine(World.Map[c.Coordinates[0], c.Coordinates[1]].Description);
   }

@@ -10,14 +10,15 @@ public class Character
 
   public int[] Coordinates { get; set; }
 
-  public List<Action> actions = new List<Action>() { new Observations() };
+  public List<Action> actions = new List<Action>() { new Observations(), new Movements() };
 
   public void DoCommand(string theCommand) 
   {
+    string[] commandsAndArgs = theCommand.Split(' ');
     foreach (Action item in actions)
     {
-        if(item.Verbs.Contains(theCommand)) {
-          item.Execute(this);
+        if(item.Verbs.Contains(commandsAndArgs[0])) { //finds the right object from actions
+          item.Execute(this, theCommand);
         }
     }
   }
