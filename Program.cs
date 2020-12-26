@@ -9,9 +9,20 @@ namespace Gosen_adventures
             World w = new World();
             w.Init(4);
 
-            Character theHero = new Character("SuperLink", 100, 10);
+            Console.WriteLine("Hej hjälte, vad heter du?");
+            string playerName = Console.ReadLine();
+            
+            Console.WriteLine("Hjälp " + playerName + ", vi är i en riktig knipa! En onding har tagit Tigge och låst in honom i en låda. Vi måste hitta nyckeln...");
+
+
+            Character theHero = new Character(playerName, 100, 10);
+
+            Thing nyckel = new Thing("Nyckel", "Den glänser och glimmar", 2);
+        
+            theHero.Inventory.Add(nyckel);
 
             Console.WriteLine(World.Map[theHero.Coordinates[0], theHero.Coordinates[0]].Description);
+            Console.Write(theHero.Inventory[0].Name);
             
 
             string command = string.Empty;
@@ -33,5 +44,6 @@ namespace Gosen_adventures
             return command;
 
         }
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lisa\\Desktop\\c#adventures\\gosen-adventures\\Gosen-adventures.csproj": {}
+    "C:\\Users\\Lisa\\Desktop\\c#adventures\\Gosen-adventures\\Gosen-adventures.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lisa\\Desktop\\c#adventures\\gosen-adventures\\Gosen-adventures.csproj": {
+    "C:\\Users\\Lisa\\Desktop\\c#adventures\\Gosen-adventures\\Gosen-adventures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lisa\\Desktop\\c#adventures\\gosen-adventures\\Gosen-adventures.csproj",
+        "projectUniqueName": "C:\\Users\\Lisa\\Desktop\\c#adventures\\Gosen-adventures\\Gosen-adventures.csproj",
         "projectName": "Gosen-adventures",
-        "projectPath": "C:\\Users\\Lisa\\Desktop\\c#adventures\\gosen-adventures\\Gosen-adventures.csproj",
+        "projectPath": "C:\\Users\\Lisa\\Desktop\\c#adventures\\Gosen-adventures\\Gosen-adventures.csproj",
         "packagesPath": "C:\\Users\\Lisa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lisa\\Desktop\\c#adventures\\gosen-adventures\\obj\\",
+        "outputPath": "C:\\Users\\Lisa\\Desktop\\c#adventures\\Gosen-adventures\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
